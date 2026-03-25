@@ -633,6 +633,9 @@ function startTitle() {
   bullets = [];
   asteroids = [];
   particles = [];
+  score = 0;
+  lives = LIVES_START;
+  level = 1;
   createStars();
   // Spawn some drifting asteroids for the title screen
   for (let i = 0; i < 6; i++) {
